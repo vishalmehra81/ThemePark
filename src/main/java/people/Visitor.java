@@ -1,6 +1,8 @@
 package people;
 
-public class Visitor {
+import behaviours.ITicketed;
+
+public class Visitor implements ITicketed {
 
     private int age;
     private double height;
